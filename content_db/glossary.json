@@ -1,0 +1,171 @@
+{
+  "glossary": [
+    {
+      "id": "def001",
+      "term": "Airway",
+      "definition": {
+        "en": "The passage through which air moves when breathing. Includes the nose, mouth, pharynx, larynx, trachea, bronchi, and bronchioles.",
+        "tl": "Ang passage kung saan gumagalaw ang hangin kapag humihinga. Kasama ang nose, mouth, pharynx, larynx, trachea, bronchi, at bronchioles."
+      },
+      "category": "Anatomy",
+      "tags": ["Respiratory", "Anatomy", "Core"]
+    },
+    {
+      "id": "def002",
+      "term": "Asystole",
+      "definition": {
+        "en": "Complete absence of electrical and mechanical activity of the heart; cardiac standstill. Represents a non-shockable cardiac arrest rhythm.",
+        "tl": "Kumpleto na kawalan ng electrical at mechanical activity ng puso; cardiac standstill. Kumakatawan sa isang non-shockable cardiac arrest rhythm."
+      },
+      "category": "Cardiac",
+      "tags": ["Cardiac", "Arrhythmia", "Emergency"]
+    },
+    {
+      "id": "def003",
+      "term": "Capillary Refill",
+      "definition": {
+        "en": "The time it takes for color to return to the skin after pressure is applied and released. Normal is less than 2 seconds. Used to assess perfusion in patients.",
+        "tl": "Ang oras na kinakailangan para ang kulay na bumalik sa balat pagkatapos ang pressure ay i-apply at i-release. Normal ay mas mababa sa 2 segundo. Ginagamit upang suriin ang perfusion sa patients."
+      },
+      "category": "Assessment",
+      "tags": ["Vital Signs", "Assessment", "Perfusion"]
+    },
+    {
+      "id": "def004",
+      "term": "Cyanosis",
+      "definition": {
+        "en": "A bluish discoloration of the skin and mucous membranes due to inadequate oxygenation of the blood.",
+        "tl": "Isang bluwish discoloration ng balat at mucous membranes dahil sa inadequate oxygenation ng dugo."
+      },
+      "category": "Clinical Signs",
+      "tags": ["Signs", "Symptoms", "Respiratory"]
+    },
+    {
+      "id": "def005",
+      "term": "Dyspnea",
+      "definition": {
+        "en": "Difficulty breathing or shortness of breath. Can be a symptom of various medical and trauma conditions.",
+        "tl": "Difficulty sa paghinga o shortness of breath. Maaaring maging symptom ng iba't ibang medical at trauma conditions."
+      },
+      "category": "Symptoms",
+      "tags": ["Respiratory", "Symptoms", "Assessment"]
+    },
+    {
+      "id": "def006",
+      "term": "Edema",
+      "definition": {
+        "en": "Abnormal accumulation of fluid in body tissues, resulting in swelling.",
+        "tl": "Abnormal accumulation ng fluid sa body tissues, na nagreresulta sa swelling."
+      },
+      "category": "Clinical Signs",
+      "tags": ["Signs", "Fluid", "Swelling"]
+    },
+    {
+      "id": "def007",
+      "term": "Hemoptysis",
+      "definition": {
+        "en": "Coughing up blood or blood-tinged sputum from the respiratory tract.",
+        "tl": "Pag-ubo ng dugo o blood-tinged sputum mula sa respiratory tract."
+      },
+      "category": "Symptoms",
+      "tags": ["Respiratory", "Symptoms", "Blood"]
+    },
+    {
+      "id": "def008",
+      "term": "Hemorrhage",
+      "definition": {
+        "en": "Excessive bleeding, either internally or externally. Classified as arterial, venous, or capillary based on the source.",
+        "tl": "Excessive bleeding, alinman internally o externally. Naka-classify bilang arterial, venous, o capillary batay sa source."
+      },
+      "category": "Trauma",
+      "tags": ["Bleeding", "Trauma", "Hemorrhage"]
+    },
+    {
+      "id": "def009",
+      "term": "Hypoxia",
+      "definition": {
+        "en": "Inadequate oxygen supply to tissues. Can lead to tissue damage if not corrected promptly.",
+        "tl": "Inadequate oxygen supply sa tissues. Maaaring magdulot ng tissue damage kung hindi corrected agad."
+      },
+      "category": "Medical Conditions",
+      "tags": ["Respiratory", "Oxygenation", "Emergency"]
+    },
+    {
+      "id": "def010",
+      "term": "Ischemia",
+      "definition": {
+        "en": "Inadequate blood supply to a part of the body, often due to blockage of blood vessels. Can lead to tissue death.",
+        "tl": "Inadequate blood supply sa isang parte ng katawan, madalas dahil sa blockage ng blood vessels. Maaaring magdulot ng tissue death."
+      },
+      "category": "Medical Conditions",
+      "tags": ["Cardiac", "Blood Flow", "Emergency"]
+    },
+    {
+      "id": "def011",
+      "term": "Lacerations",
+      "definition": {
+        "en": "Wounds caused by blunt force trauma that results in irregular tears in the skin and underlying tissues.",
+        "tl": "Wounds na sanmimistula ng blunt force trauma na nagreresulta sa irregular tears sa skin at underlying tissues."
+      },
+      "category": "Trauma",
+      "tags": ["Trauma", "Wounds", "Injuries"]
+    },
+    {
+      "id": "def012",
+      "term": "Necrosis",
+      "definition": {
+        "en": "Death of tissue cells due to disease, injury, or inadequate blood supply.",
+        "tl": "Death ng tissue cells dahil sa disease, injury, o inadequate blood supply."
+      },
+      "category": "Medical Conditions",
+      "tags": ["Tissue", "Damage", "Cellular"]
+    },
+    {
+      "id": "def013",
+      "term": "Perfusion",
+      "definition": {
+        "en": "The circulation of blood through body tissues and organs to deliver oxygen and nutrients.",
+        "tl": "Ang circulation ng dugo sa buong body tissues at organs upang maghatid ng oxygen at nutrients."
+      },
+      "category": "Physiology",
+      "tags": ["Circulation", "Blood Flow", "Oxygenation"]
+    },
+    {
+      "id": "def014",
+      "term": "Pneumothorax",
+      "definition": {
+        "en": "Collapse of a lung due to air entering the space between the lung and chest wall.",
+        "tl": "Collapse ng puso dahil sa air na pumapasok sa space between ang puso at chest wall."
+      },
+      "category": "Trauma",
+      "tags": ["Respiratory", "Trauma", "Chest Injury"]
+    },
+    {
+      "id": "def015",
+      "term": "Shock",
+      "definition": {
+        "en": "A critical medical condition characterized by inadequate tissue perfusion and oxygenation. Types include hypovolemic, cardiogenic, distributive, and obstructive.",
+        "tl": "Isang critical medical condition na characterized ng inadequate tissue perfusion at oxygenation. Ang types ay kasama ang hypovolemic, cardiogenic, distributive, at obstructive."
+      },
+      "category": "Medical Emergencies",
+      "tags": ["Shock", "Circulation", "Emergency"]
+    }
+  ],
+  "total": 15,
+  "metadata": {
+    "version": "1.0",
+    "lastUpdated": "2026-05-07",
+    "language": "en_tl",
+    "categories": [
+      "Anatomy",
+      "Cardiac",
+      "Assessment",
+      "Clinical Signs",
+      "Symptoms",
+      "Trauma",
+      "Medical Conditions",
+      "Physiology",
+      "Medical Emergencies"
+    ]
+  }
+}
