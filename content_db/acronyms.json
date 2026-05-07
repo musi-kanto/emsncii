@@ -1,0 +1,197 @@
+{
+  "acronyms": [
+    {
+      "id": "acr001",
+      "acronym": "SAMPLE",
+      "fullForm": {
+        "en": "Signs/Symptoms, Allergies, Medications, Pertinent medical history, Last oral intake, Events leading to injury/illness",
+        "tl": "Signs/Symptoms, Allergies, Medications, Pertinent medical history, Last oral intake, Events leading to injury/illness"
+      },
+      "description": {
+        "en": "A mnemonic used during patient assessment to gather medical history and current condition information.",
+        "tl": "Isang mnemonic na ginagamit sa panahon ng patient assessment upang makolekta ang medical history at current condition information."
+      },
+      "usage": {
+        "en": "Used in patient interviews and assessments to systematically gather relevant medical information.",
+        "tl": "Ginagamit sa patient interviews at assessments upang sistematikong makolekta ang relevant medical information."
+      },
+      "category": "Assessment",
+      "tags": ["Assessment", "Patient History", "Mnemonic"]
+    },
+    {
+      "id": "acr002",
+      "acronym": "OPQRST",
+      "fullForm": {
+        "en": "Onset, Provocation/Palliation, Quality, Radiation, Severity, Time",
+        "tl": "Onset, Provocation/Palliation, Quality, Radiation, Severity, Time"
+      },
+      "description": {
+        "en": "A mnemonic for assessing pain characteristics during patient evaluation.",
+        "tl": "Isang mnemonic para sa pag-assess ng pain characteristics sa panahon ng patient evaluation."
+      },
+      "usage": {
+        "en": "Used to systematically evaluate pain complaints by asking about when it started, what triggers it, how it feels, where it radiates, how severe it is, and how long it lasts.",
+        "tl": "Ginagamit upang sistematikong suriin ang pain complaints sa pamamagitan ng pagtanong tungkol sa kung kailan ito nagsimula, ano ang nag-trigger, paano ito ramdam, saan ito umiikot, gaano kalakas ito, at gaano katagal ito tumatagal."
+      },
+      "category": "Assessment",
+      "tags": ["Pain Assessment", "Mnemonic", "Symptoms"]
+    },
+    {
+      "id": "acr003",
+      "acronym": "AVPU",
+      "fullForm": {
+        "en": "Alert, Verbal, Painful, Unresponsive",
+        "tl": "Alert, Verbal, Painful, Unresponsive"
+      },
+      "description": {
+        "en": "A scale used to assess level of consciousness in patients.",
+        "tl": "Isang scale na ginagamit upang suriin ang level of consciousness sa mga patients."
+      },
+      "usage": {
+        "en": "Alert: Patient is awake and oriented. Verbal: Patient responds to verbal stimuli. Painful: Patient responds only to pain. Unresponsive: No response to any stimuli.",
+        "tl": "Alert: Ang patient ay gising at oriented. Verbal: Ang patient ay tumutugon sa verbal stimuli. Painful: Ang patient ay tumutugon lamang sa pain. Unresponsive: Walang response sa anumang stimuli."
+      },
+      "category": "Assessment",
+      "tags": ["Level of Consciousness", "Assessment", "Neurological"]
+    },
+    {
+      "id": "acr004",
+      "acronym": "DCAP-BTLS",
+      "fullForm": {
+        "en": "Deformities, Contusions, Abrasions, Punctures/Penetrations-Burns, Tenderness, Lacerations, Swelling",
+        "tl": "Deformities, Contusions, Abrasions, Punctures/Penetrations-Burns, Tenderness, Lacerations, Swelling"
+      },
+      "description": {
+        "en": "A systematic approach for trauma assessment, checking for injuries and abnormalities.",
+        "tl": "Isang systematic approach para sa trauma assessment, sumusuri para sa injuries at abnormalities."
+      },
+      "usage": {
+        "en": "Used during physical examination of trauma patients to identify signs of injury across the body.",
+        "tl": "Ginagamit sa panahon ng physical examination ng trauma patients upang matukoy ang signs ng injury sa buong katawan."
+      },
+      "category": "Trauma Assessment",
+      "tags": ["Trauma", "Assessment", "Physical Exam"]
+    },
+    {
+      "id": "acr005",
+      "acronym": "CPR",
+      "fullForm": {
+        "en": "Cardiopulmonary Resuscitation",
+        "tl": "Cardiopulmonary Resuscitation"
+      },
+      "description": {
+        "en": "Emergency procedure consisting of chest compressions and rescue breaths to revive a person in cardiac arrest.",
+        "tl": "Emergency procedure na binubuo ng chest compressions at rescue breaths upang ipagbunga ng buhay ang isang taong nasa cardiac arrest."
+      },
+      "usage": {
+        "en": "Performed on patients in cardiac arrest to maintain circulation and oxygenation until advanced medical care is available.",
+        "tl": "Ginagawa sa patients na nasa cardiac arrest upang mapanatili ang circulation at oxygenation hanggang sa available ang advanced medical care."
+      },
+      "category": "Resuscitation",
+      "tags": ["CPR", "Resuscitation", "Life Support", "Core Competency"]
+    },
+    {
+      "id": "acr006",
+      "acronym": "AED",
+      "fullForm": {
+        "en": "Automated External Defibrillator",
+        "tl": "Automated External Defibrillator"
+      },
+      "description": {
+        "en": "A portable electronic device that analyzes heart rhythm and delivers electrical shock to restore normal heart rate.",
+        "tl": "Isang portable electronic device na nag-analyze ng heart rhythm at naghahatid ng electrical shock upang ibalik ang normal na heart rate."
+      },
+      "usage": {
+        "en": "Used for patients in ventricular fibrillation or pulseless ventricular tachycardia to attempt defibrillation and restore circulation.",
+        "tl": "Ginagamit para sa patients na nasa ventricular fibrillation o pulseless ventricular tachycardia upang subukan ang defibrillation at ibalik ang circulation."
+      },
+      "category": "Resuscitation",
+      "tags": ["AED", "Defibrillation", "Cardiac", "Core Competency"]
+    },
+    {
+      "id": "acr007",
+      "acronym": "BLS",
+      "fullForm": {
+        "en": "Basic Life Support",
+        "tl": "Basic Life Support"
+      },
+      "description": {
+        "en": "Emergency care provided to maintain airway, breathing, and circulation in a patient experiencing cardiopulmonary arrest.",
+        "tl": "Emergency care na ibinibigay upang mapanatili ang airway, breathing, at circulation sa isang patient na nakakaranas ng cardiopulmonary arrest."
+      },
+      "usage": {
+        "en": "First line of care in cardiac and respiratory emergencies, including CPR and use of AED.",
+        "tl": "First line ng pag-aalaga sa cardiac at respiratory emergencies, kasama ang CPR at paggamit ng AED."
+      },
+      "category": "Resuscitation",
+      "tags": ["BLS", "Life Support", "Core Competency"]
+    },
+    {
+      "id": "acr008",
+      "acronym": "ALS",
+      "fullForm": {
+        "en": "Advanced Life Support",
+        "tl": "Advanced Life Support"
+      },
+      "description": {
+        "en": "Advanced medical care including medications, advanced airway management, and cardiac monitoring.",
+        "tl": "Advanced medical care kasama ang medications, advanced airway management, at cardiac monitoring."
+      },
+      "usage": {
+        "en": "Provided by paramedics and higher-level providers to stabilize and transport critically ill or injured patients.",
+        "tl": "Ibinibigay ng paramedics at higher-level providers upang i-stabilize at dalhin ang critically ill o injured patients."
+      },
+      "category": "Resuscitation",
+      "tags": ["ALS", "Advanced Care", "Medications"]
+    },
+    {
+      "id": "acr009",
+      "acronym": "PPE",
+      "fullForm": {
+        "en": "Personal Protective Equipment",
+        "tl": "Personal Protective Equipment"
+      },
+      "description": {
+        "en": "Protective equipment worn to minimize exposure to bloodborne pathogens and other hazards.",
+        "tl": "Protective equipment na sinaot upang mabawasan ang exposure sa bloodborne pathogens at iba pang hazards."
+      },
+      "usage": {
+        "en": "Used during patient contact, especially when exposure to blood or body fluids is anticipated.",
+        "tl": "Ginagamit sa panahon ng patient contact, lalo na kapag inaasahang may exposure sa blood o body fluids."
+      },
+      "category": "Safety",
+      "tags": ["Safety", "Protection", "Infection Control"]
+    },
+    {
+      "id": "acr010",
+      "acronym": "GCS",
+      "fullForm": {
+        "en": "Glasgow Coma Scale",
+        "tl": "Glasgow Coma Scale"
+      },
+      "description": {
+        "en": "A neurological scale that measures level of consciousness on a scale of 3 to 15 based on eye opening, verbal response, and motor response.",
+        "tl": "Isang neurological scale na susukat ang level of consciousness sa isang scale ng 3 hanggang 15 batay sa eye opening, verbal response, at motor response."
+      },
+      "usage": {
+        "en": "Used to assess and communicate severity of brain injury or altered mental status in patients.",
+        "tl": "Ginagamit upang suriin at makipag-communicate ang severity ng brain injury o altered mental status sa mga patients."
+      },
+      "category": "Neurological Assessment",
+      "tags": ["GCS", "Neurological", "Assessment", "Brain Injury"]
+    }
+  ],
+  "total": 10,
+  "metadata": {
+    "version": "1.0",
+    "lastUpdated": "2026-05-07",
+    "language": "en_tl",
+    "categories": [
+      "Assessment",
+      "Trauma Assessment",
+      "Resuscitation",
+      "Safety",
+      "Neurological Assessment"
+    ]
+  }
+}
