@@ -1,0 +1,459 @@
+{
+  "questions": [
+    {
+      "id": "q001",
+      "competency": "CPR_WITH_AED",
+      "difficulty": "intermediate",
+      "category": "Core Competencies",
+      "type": "multiple_choice",
+      "question": {
+        "en": "When performing CPR on an adult, what is the correct compression-to-ventilation ratio according to current AHA guidelines?",
+        "tl": "Kapag nagsasagawa ng CPR sa isang adult, ano ang tamang compression-to-ventilation ratio ayon sa kasalukuyang AHA guidelines?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "15:2",
+            "tl": "15:2"
+          },
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "30:2",
+            "tl": "30:2"
+          },
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "100:2",
+            "tl": "100:2"
+          },
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "5:1",
+            "tl": "5:1"
+          },
+          "correct": false
+        }
+      ],
+      "rationale": {
+        "en": "Current AHA BLS guidelines recommend 30 chest compressions followed by 2 rescue breaths (30:2 ratio) for all ages, with exceptions for infants.",
+        "tl": "Ang kasalukuyang AHA BLS guidelines ay nagrerekomenda ng 30 chest compressions na sinusundan ng 2 rescue breaths (30:2 ratio) para sa lahat ng edad, may exceptions para sa mga sanggol."
+      },
+      "references": ["AHA BLS Guidelines 2020", "TESDA EMS NC II Standards"],
+      "tags": ["CPR", "AED", "Resuscitation", "Basic Life Support"]
+    },
+    {
+      "id": "q002",
+      "competency": "VITAL_SIGNS_MONITORING",
+      "difficulty": "easy",
+      "category": "Common Competencies",
+      "type": "multiple_choice",
+      "question": {
+        "en": "What is the normal resting heart rate range for an adult?",
+        "tl": "Ano ang normal na resting heart rate range para sa isang adult?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "40-60 bpm",
+            "tl": "40-60 bpm"
+          },
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "60-100 bpm",
+            "tl": "60-100 bpm"
+          },
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "100-120 bpm",
+            "tl": "100-120 bpm"
+          },
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "120-140 bpm",
+            "tl": "120-140 bpm"
+          },
+          "correct": false
+        }
+      ],
+      "rationale": {
+        "en": "The normal resting heart rate for an adult ranges from 60 to 100 beats per minute. Athletes may have lower rates due to conditioning.",
+        "tl": "Ang normal na resting heart rate para sa isang adult ay umabot mula 60 hanggang 100 beats per minute. Ang mga atleta ay maaaring may mas mababang rate dahil sa conditioning."
+      },
+      "references": ["TESDA EMS NC II Standards", "Basic Vital Signs Assessment"],
+      "tags": ["Vital Signs", "Heart Rate", "Assessment"]
+    },
+    {
+      "id": "q003",
+      "competency": "PATIENT_ASSESSMENT",
+      "difficulty": "intermediate",
+      "category": "Common Competencies",
+      "type": "true_false",
+      "question": {
+        "en": "True or False: When using the SAMPLE history method, 'A' stands for Allergies.",
+        "tl": "Totoo o Bawal: Kapag gumagamit ng SAMPLE history method, ang 'A' ay kumakatawan sa Allergies."
+      },
+      "correctAnswer": true,
+      "rationale": {
+        "en": "SAMPLE is an acronym: Signs/Symptoms, Allergies, Medications, Pertinent medical history, Last oral intake, Events leading to injury/illness.",
+        "tl": "SAMPLE ay isang acronym: Signs/Symptoms, Allergies, Medications, Pertinent medical history, Last oral intake, Events leading to injury/illness."
+      },
+      "references": ["SAMPLE Assessment Tool", "TESDA EMS NC II Standards"],
+      "tags": ["Patient Assessment", "SAMPLE", "Medical History"]
+    },
+    {
+      "id": "q004",
+      "competency": "INFECTION_CONTROL",
+      "difficulty": "easy",
+      "category": "Common Competencies",
+      "type": "multiple_choice",
+      "question": {
+        "en": "Which of the following is a standard precaution when handling a patient with suspected bloodborne pathogen exposure?",
+        "tl": "Alin sa mga sumusunod ay isang standard precaution kapag hinahawakan ang isang patient na may suspected bloodborne pathogen exposure?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Wash hands after patient contact",
+            "tl": "Hugasan ang mga kamay pagkatapos ng patient contact"
+          },
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Use double gloves at all times",
+            "tl": "Gumamit ng double gloves sa lahat ng oras"
+          },
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Avoid eye protection if patient is cooperative",
+            "tl": "Iwasan ang eye protection kung ang patient ay cooperative"
+          },
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "PPE is not needed for minor injuries",
+            "tl": "Ang PPE ay hindi kinakailangan para sa minor injuries"
+          },
+          "correct": false
+        }
+      ],
+      "rationale": {
+        "en": "Standard precautions include hand hygiene, which is one of the most important measures to prevent transmission of bloodborne pathogens.",
+        "tl": "Ang standard precautions ay may kasamang hand hygiene, na isa sa pinaka-importanteng measures upang maiwasan ang transmission ng bloodborne pathogens."
+      },
+      "references": ["CDC Standard Precautions", "OSHA Bloodborne Pathogen Standard", "TESDA EMS NC II Standards"],
+      "tags": ["Infection Control", "PPE", "Bloodborne Pathogens", "Safety"]
+    },
+    {
+      "id": "q005",
+      "competency": "BASIC_ANATOMY",
+      "difficulty": "intermediate",
+      "category": "Common Competencies",
+      "type": "multiple_choice",
+      "question": {
+        "en": "The respiratory system includes all of the following EXCEPT:",
+        "tl": "Ang respiratory system ay may kasamang lahat ng sumusunod MALIBAN SA:"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Trachea",
+            "tl": "Trachea"
+          },
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Alveoli",
+            "tl": "Alveoli"
+          },
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Diaphragm",
+            "tl": "Diaphragm"
+          },
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Thyroid gland",
+            "tl": "Thyroid gland"
+          },
+          "correct": true
+        }
+      ],
+      "rationale": {
+        "en": "The thyroid gland is part of the endocrine system, not the respiratory system. The trachea, alveoli, and diaphragm are all part of the respiratory system.",
+        "tl": "Ang thyroid gland ay bahagi ng endocrine system, hindi ng respiratory system. Ang trachea, alveoli, at diaphragm ay lahat bahagi ng respiratory system."
+      },
+      "references": ["Anatomy and Physiology", "TESDA EMS NC II Standards"],
+      "tags": ["Anatomy", "Respiratory System", "Body Systems"]
+    },
+    {
+      "id": "q006",
+      "competency": "AMBULANCE_OPERATIONS",
+      "difficulty": "hard",
+      "category": "Core Competencies",
+      "type": "scenario",
+      "question": {
+        "en": "You are responding to a motor vehicle accident with multiple casualties. Your ambulance arrives first. What is your FIRST action?",
+        "tl": "Kayo ay tumutugon sa isang motor vehicle accident na may maraming casualties. Ang inyong ambulance ay dumating muna. Ano ang inyong UNANG aksyon?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Immediately approach the vehicles to assess patients",
+            "tl": "Agad na lumalapit sa mga vehicles upang suriin ang mga patients"
+          },
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Ensure scene safety and request additional resources",
+            "tl": "Siguraduhin ang scene safety at humiling ng karagdagang resources"
+          },
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Begin treatment of the most critically injured patient",
+            "tl": "Magsimula ng treatment sa pinaka-critically injured patient"
+          },
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Call the receiving hospital to alert them of multiple patients",
+            "tl": "Tawagan ang receiving hospital upang alertahin sila ng multiple patients"
+          },
+          "correct": false
+        }
+      ],
+      "rationale": {
+        "en": "Scene safety is the highest priority. Before patient care can begin, responders must ensure the scene is safe and call for additional resources to handle multiple casualties.",
+        "tl": "Ang scene safety ay ang highest priority. Bago magsimula ang patient care, ang responders ay dapat siguraduhin na ang scene ay ligtas at tawagan ang additional resources upang mahawakan ang multiple casualties."
+      },
+      "references": ["Emergency Scene Management", "TESDA EMS NC II Standards"],
+      "tags": ["Scene Safety", "Ambulance Operations", "Mass Casualty"]
+    },
+    {
+      "id": "q007",
+      "competency": "TRAUMA_MANAGEMENT",
+      "difficulty": "hard",
+      "category": "Core Competencies",
+      "type": "multiple_choice",
+      "question": {
+        "en": "When managing a patient with severe external hemorrhage from a limb wound, what is the FIRST step?",
+        "tl": "Kapag hinahawakan ang isang patient na may severe external hemorrhage mula sa isang limb wound, ano ang UNANG step?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Apply direct pressure and elevate the limb",
+            "tl": "Mag-apply ng direct pressure at itaas ang limb"
+          },
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Apply a tourniquet immediately",
+            "tl": "Mag-apply ng tourniquet agad"
+          },
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Pour water on the wound to clean it",
+            "tl": "Ibuhos ang tubig sa wound upang linisin ito"
+          },
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Probe the wound to find the bleeding source",
+            "tl": "Tuklasin ang wound upang mahanap ang bleeding source"
+          },
+          "correct": false
+        }
+      ],
+      "rationale": {
+        "en": "Direct pressure is the first line of treatment for external hemorrhage. Elevating the limb helps reduce blood flow. Tourniquets are only applied if direct pressure and elevation fail to control bleeding.",
+        "tl": "Ang direct pressure ay ang first line ng treatment para sa external hemorrhage. Ang pag-elevate ng limb ay tumutulong na mabawasan ang blood flow. Ang tourniquets ay inaaply lamang kung ang direct pressure at elevation ay nabigong kontrolin ang bleeding."
+      },
+      "references": ["Trauma Management", "Hemorrhage Control", "TESDA EMS NC II Standards"],
+      "tags": ["Trauma", "Hemorrhage Control", "Bleeding"]
+    },
+    {
+      "id": "q008",
+      "competency": "OXYGEN_ADMINISTRATION",
+      "difficulty": "intermediate",
+      "category": "Core Competencies",
+      "type": "multiple_choice",
+      "question": {
+        "en": "What is the maximum recommended flow rate when administering oxygen via a nasal cannula?",
+        "tl": "Ano ang maximum recommended flow rate kapag nag-aadminister ng oxygen via nasal cannula?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "2-3 L/min",
+            "tl": "2-3 L/min"
+          },
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "4-6 L/min",
+            "tl": "4-6 L/min"
+          },
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "8-10 L/min",
+            "tl": "8-10 L/min"
+          },
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "12-15 L/min",
+            "tl": "12-15 L/min"
+          },
+          "correct": false
+        }
+      ],
+      "rationale": {
+        "en": "Nasal cannula should not exceed 4-6 L/min as higher flow rates can cause drying and discomfort to nasal passages and are generally ineffective for oxygen delivery beyond this range.",
+        "tl": "Ang nasal cannula ay hindi dapat lumampas sa 4-6 L/min dahil ang mas mataas na flow rates ay maaaring magdulot ng drying at discomfort sa nasal passages at generally hindi effective para sa oxygen delivery lampas sa range na ito."
+      },
+      "references": ["Oxygen Administration", "Respiratory Care", "TESDA EMS NC II Standards"],
+      "tags": ["Oxygen", "Respiratory Support", "Equipment"]
+    },
+    {
+      "id": "q009",
+      "competency": "SPINAL_IMMOBILIZATION",
+      "difficulty": "intermediate",
+      "category": "Core Competencies",
+      "type": "true_false",
+      "question": {
+        "en": "True or False: It is acceptable to move a patient with a suspected spinal injury immediately to the ambulance if there is no danger to personnel.",
+        "tl": "Totoo o Bawal: Ito ay acceptable na ilipat ang isang patient na may suspected spinal injury agad sa ambulance kung walang danger sa personnel."
+      },
+      "correctAnswer": false,
+      "rationale": {
+        "en": "Patients with suspected spinal injuries should be immobilized using proper techniques (cervical collar, backboard) before any movement to prevent further injury.",
+        "tl": "Ang mga patients na may suspected spinal injuries ay dapat i-immobilize gamit ang proper techniques (cervical collar, backboard) bago anumang movement upang maiwasan ang further injury."
+      },
+      "references": ["Spinal Immobilization", "Trauma Management", "TESDA EMS NC II Standards"],
+      "tags": ["Spinal Injury", "Immobilization", "Trauma"]
+    },
+    {
+      "id": "q010",
+      "competency": "MEDICAL_TERMINOLOGY",
+      "difficulty": "easy",
+      "category": "Common Competencies",
+      "type": "multiple_choice",
+      "question": {
+        "en": "What does the medical term 'tachycardia' mean?",
+        "tl": "Ano ang ibig sabihin ng medical term na 'tachycardia'?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Slow heart rate",
+            "tl": "Mabagal na heart rate"
+          },
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Fast heart rate (>100 bpm)",
+            "tl": "Mabilis na heart rate (>100 bpm)"
+          },
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Irregular heart rate",
+            "tl": "Irregular na heart rate"
+          },
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Absence of heart rate",
+            "tl": "Kawalan ng heart rate"
+          },
+          "correct": false
+        }
+      ],
+      "rationale": {
+        "en": "Tachycardia comes from Greek: 'tachy' meaning fast and 'cardia' meaning heart. It refers to a resting heart rate greater than 100 beats per minute.",
+        "tl": "Ang tachycardia ay mula sa Greek: 'tachy' na ibig sabihin ay mabilis at 'cardia' na ibig sabihin ay puso. Ito ay tumutukoy sa isang resting heart rate na higit sa 100 beats per minute."
+      },
+      "references": ["Medical Terminology", "TESDA EMS NC II Standards"],
+      "tags": ["Medical Terminology", "Heart Rate", "Definitions"]
+    }
+  ],
+  "total": 10,
+  "metadata": {
+    "version": "1.0",
+    "lastUpdated": "2026-05-07",
+    "language": "en_tl",
+    "coverage": {
+      "basic_competencies": 1,
+      "common_competencies": 4,
+      "core_competencies": 5
+    }
+  }
+}
