@@ -1,0 +1,234 @@
+{
+  "scenarios": [
+    {
+      "id": "scenario001",
+      "title": {
+        "en": "Cardiac Arrest - Unresponsive Patient",
+        "tl": "Cardiac Arrest - Unresponsive Patient"
+      },
+      "description": {
+        "en": "You arrive at a shopping mall to find an unresponsive middle-aged male collapsed on the floor. Bystanders report he suddenly fell.",
+        "tl": "Kayo ay dumating sa shopping mall upang mahanap ang isang unresponsive middle-aged male na nabagsak sa sahig. Ang mga bystanders ay nag-report na biglang siya ay nahulog."
+      },
+      "difficulty": "intermediate",
+      "duration": 300,
+      "category": "Cardiac Emergency",
+      "initialVitals": {
+        "consciousness": "unresponsive",
+        "pulse": 0,
+        "respiration": 0,
+        "bloodPressure": "0/0",
+        "skinColor": "cyanotic",
+        "notes": "Patient appears unresponsive with no pulse or respiration detected"
+      },
+      "branches": [
+        {
+          "id": "branch001",
+          "decision": {
+            "en": "Check for scene safety and call for AED",
+            "tl": "Suriin ang scene safety at tawagan para sa AED"
+          },
+          "correct": true,
+          "feedback": {
+            "en": "Correct! Scene safety is always first. Requesting AED and activating EMS response.",
+            "tl": "Tama! Ang scene safety ay laging una. Nag-request ng AED at nag-activate ng EMS response."
+          },
+          "nextDecision": {
+            "en": "What do you do next?",
+            "tl": "Ano ang iyong susunod na gawin?"
+          },
+          "options": [
+            {
+              "id": "opt001",
+              "text": {
+                "en": "Begin CPR with 30 chest compressions",
+                "tl": "Magsimula ng CPR na may 30 chest compressions"
+              },
+              "correct": true
+            },
+            {
+              "id": "opt002",
+              "text": {
+                "en": "Wait for the AED before doing anything",
+                "tl": "Maghintay para sa AED bago gumawa ng kahit ano"
+              },
+              "correct": false
+            }
+          ]
+        }
+      ],
+      "outcome": {
+        "en": "Good decision-making! CPR was started immediately, and when AED arrived, defibrillation was performed. Patient was resuscitated and transported to the nearest hospital.",
+        "tl": "Magandang decision-making! Ang CPR ay nagsimula agad, at kapag dumating ang AED, ang defibrillation ay ginanap. Ang patient ay na-resuscitate at dinala sa nearest hospital."
+      },
+      "learningPoints": [
+        {
+          "en": "Scene safety must be assessed first",
+          "tl": "Ang scene safety ay dapat ma-assess muna"
+        },
+        {
+          "en": "Early CPR improves survival outcomes",
+          "tl": "Ang early CPR ay nagpapabuti ng survival outcomes"
+        },
+        {
+          "en": "AED should be used as soon as available",
+          "tl": "Ang AED ay dapat gamitin hangga't available"
+        }
+      ]
+    },
+    {
+      "id": "scenario002",
+      "title": {
+        "en": "Motor Vehicle Accident with Trauma",
+        "tl": "Motor Vehicle Accident na may Trauma"
+      },
+      "description": {
+        "en": "Multiple vehicle collision on a highway. You arrive to find two vehicles with visible damage and several injured persons.",
+        "tl": "Multiple vehicle collision sa highway. Kayo ay dumating upang mahanap ang dalawang vehicles na may visible damage at maraming injured persons."
+      },
+      "difficulty": "hard",
+      "duration": 600,
+      "category": "Trauma / Mass Casualty",
+      "initialVitals": {
+        "notes": "Multiple casualties - triage assessment needed"
+      },
+      "branches": [
+        {
+          "id": "branch001",
+          "decision": {
+            "en": "Ensure scene safety and call for additional ambulances",
+            "tl": "Siguraduhin ang scene safety at tawagan para sa additional ambulances"
+          },
+          "correct": true,
+          "feedback": {
+            "en": "Correct! Multiple casualties require additional resources and proper scene management.",
+            "tl": "Tama! Ang multiple casualties ay nangangailangan ng additional resources at proper scene management."
+          },
+          "nextDecision": {
+            "en": "How do you prioritize which patient to treat first?",
+            "tl": "Paano mo prioritize kung aling patient ang dapat tratuhin muna?"
+          },
+          "options": [
+            {
+              "id": "opt001",
+              "text": {
+                "en": "Use triage system - treat most critical first",
+                "tl": "Gumamit ng triage system - tratuhin ang most critical muna"
+              },
+              "correct": true
+            },
+            {
+              "id": "opt002",
+              "text": {
+                "en": "Treat in order of vehicle damage severity",
+                "tl": "Tratuhin sa order ng vehicle damage severity"
+              },
+              "correct": false
+            }
+          ]
+        }
+      ],
+      "outcome": {
+        "en": "By using proper triage and resource management, all patients were appropriately prioritized and transported.",
+        "tl": "Sa pamamagitan ng tamang triage at resource management, lahat ng patients ay appropriately na-prioritize at na-transport."
+      },
+      "learningPoints": [
+        {
+          "en": "Scene safety is critical in MVAs",
+          "tl": "Ang scene safety ay critical sa MVAs"
+        },
+        {
+          "en": "Early mobilization of resources for mass casualties",
+          "tl": "Ang early mobilization ng resources para sa mass casualties"
+        },
+        {
+          "en": "Proper triage saves lives",
+          "tl": "Ang proper triage ay nagsasalba ng buhay"
+        }
+      ]
+    },
+    {
+      "id": "scenario003",
+      "title": {
+        "en": "Acute Stroke - Time-Sensitive Emergency",
+        "tl": "Acute Stroke - Time-Sensitive Emergency"
+      },
+      "description": {
+        "en": "You are called to a residence where a 65-year-old female has sudden onset weakness on left side of body and slurred speech.",
+        "tl": "Kayo ay tawagan sa isang residence kung saan ang isang 65-year-old female ay may sudden onset weakness sa left side ng katawan at slurred speech."
+      },
+      "difficulty": "intermediate",
+      "duration": 420,
+      "category": "Medical Emergency",
+      "initialVitals": {
+        "consciousness": "alert",
+        "pulse": 88,
+        "respiration": 16,
+        "bloodPressure": "150/95",
+        "skinColor": "pale",
+        "notes": "Patient displays facial droop and speech difficulty"
+      },
+      "branches": [
+        {
+          "id": "branch001",
+          "decision": {
+            "en": "Recognize stroke signs and immediately transport to stroke center",
+            "tl": "Kilalanin ang stroke signs at immediately i-transport sa stroke center"
+          },
+          "correct": true,
+          "feedback": {
+            "en": "Excellent! Time is brain. Early recognition and transport to a stroke center is critical.",
+            "tl": "Napakaganda! Ang time ay brain. Ang early recognition at transport sa stroke center ay critical."
+          },
+          "nextDecision": {
+            "en": "What is your next priority?",
+            "tl": "Ano ang iyong next priority?"
+          },
+          "options": [
+            {
+              "id": "opt001",
+              "text": {
+                "en": "Notify hospital of incoming stroke patient and time of symptom onset",
+                "tl": "Inotify ang hospital ng incoming stroke patient at time ng symptom onset"
+              },
+              "correct": true
+            },
+            {
+              "id": "opt002",
+              "text": {
+                "en": "Begin aggressive fluid administration",
+                "tl": "Magsimula ng aggressive fluid administration"
+              },
+              "correct": false
+            }
+          ]
+        }
+      ],
+      "outcome": {
+        "en": "By recognizing stroke symptoms early and notifying the hospital, the patient was able to receive thrombolytic therapy within the treatment window.",
+        "tl": "Sa pamamagitan ng pagkilala sa stroke symptoms nang maaga at pag-notify sa hospital, ang patient ay nakagawa ng thrombolytic therapy sa treatment window."
+      },
+      "learningPoints": [
+        {
+          "en": "F.A.S.T. - Face drooping, Arm weakness, Speech difficulty, Time to call",
+          "tl": "F.A.S.T. - Face drooping, Arm weakness, Speech difficulty, Time to call"
+        },
+        {
+          "en": "Time is critical in stroke treatment",
+          "tl": "Ang time ay critical sa stroke treatment"
+        },
+        {
+          "en": "Pre-hospital notification improves patient outcomes",
+          "tl": "Ang pre-hospital notification ay nagpapabuti ng patient outcomes"
+        }
+      ]
+    }
+  ],
+  "total": 3,
+  "metadata": {
+    "version": "1.0",
+    "lastUpdated": "2026-05-07",
+    "language": "en_tl",
+    "difficulties": ["intermediate", "hard"]
+  }
+}
